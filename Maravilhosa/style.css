@@ -248,15 +248,13 @@ li {
     .container_suaHistoria p, .autora_sobre p {
         text-align: justify;
     }
-    
-   .suaHistoria_titulo{
-       font-size: 3rem;
-       padding-bottom: 8rem;
-   }
-
-   .suaHistoria_paragrafo{
-       font-size: 1.3rem;
-   }
+    .suaHistoria_titulo {
+        font-size: 3rem;
+        padding-bottom: 8rem;
+    }
+    .suaHistoria_paragrafo {
+        font-size: 1.3rem;
+    }
     .autora {
         display: flex;
         flex-direction: row;
@@ -270,7 +268,7 @@ li {
     }
 }
 
-@media (min-width:1200px) {
+@media (min-width:1280px) {
     .container_suaHistoria {
         display: flex;
         flex-direction: row;
@@ -281,9 +279,11 @@ li {
         border-radius: 0.5rem;
         height: 70vh;
         width: 40%;
-
     }
-    .boxBorder_texto{
+    .boxBorder_texto {
         font-size: 1.4rem;
+    }
+    .autora_sobre p{
+        font-size: 1.2rem;
     }
 }
